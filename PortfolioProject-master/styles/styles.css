@@ -207,11 +207,25 @@ section {
 
 /*About*/
 .about-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  align-items: center;
   padding-top: 3.5rem;
   padding-bottom: 5rem;
 }
+
+.left-about.horizontal {
+  display: flex;
+  align-items: center;
+}
+
+.left-about.horizontal h4 {
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.left-about.horizontal p {
+  margin: 0;
+}
+
 .about-container .right-about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
