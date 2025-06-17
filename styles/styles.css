@@ -86,6 +86,9 @@ section {
     transform: translateY(0) scaleY(1);
   }
 }
+.port-text {
+    margin-top: 2.5rem; /* Adjust as needed */
+}
 
 .controls {
   position: fixed;
