@@ -1,3 +1,4 @@
+@import './media';
 * {
     margin: 0;
     padding: 0;
@@ -668,4 +669,11 @@ section {
     }
 }
 
-@import './media';
+  .horizontal {
+            display: flex;
+            align-items: center;
+        }
+
+        .left-about {
+            margin-right: 20px; /* Adjust as needed */
+        }
